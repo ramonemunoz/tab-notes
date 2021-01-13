@@ -1,0 +1,22 @@
+{
+  "name": "tab-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel index.html",
+    "build": "parcel build index.html --no-content-hash --no-source-maps --no-minify",
+    "help": "parcel help"
+  },
+  "keywords": [],
+  "author": "Ramon Munoz",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.4"
+  },
+  "dependencies": {
+    "medium-editor": "^5.23.3"
+  }
+}
