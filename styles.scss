@@ -10,13 +10,17 @@
     outline: none;
 }
 
+
+
 @font-face {
     font-family: 'Roboto Mono';
     src: url('./fonts/RobotoMono-400.woff') format('woff');
   }
 
 body{
-    background-color: antiquewhite;
+    background-color: #f6f6f6;
+    caret-color: #efc06a;
+
 }
 
 .container{
@@ -25,4 +29,15 @@ body{
     padding: 40px 20px 50vh;
     max-width: calc(80ch + 40px);
     margin: auto;
+
+}
+
+.editable{
+    & ::selection {
+        background: #f7e1b9; /* WebKit/Blink Browsers */
+    }
+}
+
+b{
+    font-weight: 700;
 }
